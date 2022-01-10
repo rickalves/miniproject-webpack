@@ -1,0 +1,27 @@
+body{
+    background-color: blueviolet;
+    background-image: url("../img/infor.jpg");
+    background-size: cover;
+    color: azure;
+    font-size: 25pt;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+div{
+    text-align: center;
+    color: salmon;
+    font-weight: 500;
+    margin: 0px auto;
+}
+
+div:nth-child(2){
+    display: grid;
+    width: 150px;
+    height: 150px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 1.5rem;
+}

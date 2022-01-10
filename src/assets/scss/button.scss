@@ -1,0 +1,21 @@
+.button {
+    display: block;
+    padding: 0.65em 4em;
+    border: none;
+    margin: 30px auto;
+    border-radius: 0.5em;
+    box-sizing: border-box;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: salmon;
+    font-size: 16pt;
+  }
+  
+  .button:hover {
+    background-color: $cor-botao-bg;
+    color: $cor-botao;
+  }
+  
